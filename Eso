@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Terapia Ocupacional</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff0f5;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #cc3366;
+    }
+    .semestre {
+      background-color: #ffe6f0;
+      border: 1px solid #ffb3cc;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 10px;
+      display: inline-block;
+      vertical-align: top;
+      width: 200px;
+    }
+    .semestre h2 {
+      font-size: 1.2em;
+      color: #cc3366;
+    }
+    .ramo {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 8px;
+      margin: 5px 0;
+      font-size: 0.95em;
+      cursor: pointer;
+    }
+    .ramo:hover {
+      background-color: #ffe6f0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Malla Terapia Ocupacional</h1>
+
+  <div class="semestre">
+    <h2>1° Semestre</h2>
+    <div class="ramo">Fundamentos de TO</div>
+    <div class="ramo">Psicología General</div>
+    <div class="ramo">Anatomía</div>
+    <div class="ramo">Sociología</div>
+    <div class="ramo">Inglés I</div>
+  </div>
+
+  <div class="semestre">
+    <h2>2° Semestre</h2>
+    <div class="ramo">Neurociencias</div>
+    <div class="ramo">Psicología Evolutiva</div>
+    <div class="ramo">Biomecánica</div>
+    <div class="ramo">Contexto Sociocultural</div>
+    <div class="ramo">Inglés II</div>
+  </div>
+
+  <!-- Agrega más semestres copiando el bloque .semestre -->
+
+</body>
+</html>
